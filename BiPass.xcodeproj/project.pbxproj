@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F16F77E20A5CD7500CD6564 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F16F77D20A5CD7500CD6564 /* GoogleService-Info.plist */; };
+		1F16F77F20A5CD7500CD6564 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F16F77D20A5CD7500CD6564 /* GoogleService-Info.plist */; };
+		1F16F78020A5CD7500CD6564 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F16F77D20A5CD7500CD6564 /* GoogleService-Info.plist */; };
+		1F23044220D2252500ECCB07 /* BusinessLoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23044120D2252500ECCB07 /* BusinessLoggedInViewController.swift */; };
+		1F23044420D2D30200ECCB07 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23044320D2D30100ECCB07 /* LogInViewController.swift */; };
+		1F23044620D3367000ECCB07 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23044520D3367000ECCB07 /* PurchaseViewController.swift */; };
+		1F23044820D337AE00ECCB07 /* BusinessDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23044720D337AE00ECCB07 /* BusinessDashboardViewController.swift */; };
+		1F23044A20D3444500ECCB07 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23044920D3444500ECCB07 /* Purchase.swift */; };
+		1F23044C20D346C600ECCB07 /* IdentifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23044B20D346C600ECCB07 /* IdentifyViewController.swift */; };
+		1F23044E20D353ED00ECCB07 /* stringNumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23044D20D353ED00ECCB07 /* stringNumberExtension.swift */; };
+		1F23045220D3F0E300ECCB07 /* GotInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23045120D3F0E100ECCB07 /* GotInfoViewController.swift */; };
+		1F23045420D3F37B00ECCB07 /* VerifyUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23045320D3F37B00ECCB07 /* VerifyUserViewController.swift */; };
+		1F44E8D520CAD6E10064FDBC /* How-to-Start-a-Coffee-Shop-Guide-Course.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F44E8D420CAD6E00064FDBC /* How-to-Start-a-Coffee-Shop-Guide-Course.png */; };
+		1F44E8D720CADB800064FDBC /* Business Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F44E8D620CADB7F0064FDBC /* Business Text.png */; };
+		1F44E8D920CADC6C0064FDBC /* BusinessJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44E8D820CADC6C0064FDBC /* BusinessJoinViewController.swift */; };
+		1F44E8DB20CAE0E50064FDBC /* BusinessFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44E8DA20CAE0E50064FDBC /* BusinessFormViewController.swift */; };
+		1F44E8DD20CAEDAE0064FDBC /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44E8DC20CAEDAE0064FDBC /* Business.swift */; };
+		1F44E8DF20CAF76C0064FDBC /* BusinessDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44E8DE20CAF76C0064FDBC /* BusinessDetailsViewController.swift */; };
+		1F44E8E120CB0F540064FDBC /* LoyaltySetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44E8E020CB0F530064FDBC /* LoyaltySetUpViewController.swift */; };
+		1F44E8E320CB0F680064FDBC /* PaymentSetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44E8E220CB0F680064FDBC /* PaymentSetUpViewController.swift */; };
+		1F44E8E520CB2E7B0064FDBC /* Loyalty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44E8E420CB2E7B0064FDBC /* Loyalty.swift */; };
+		1F44E8E720CB2E8F0064FDBC /* loyaltyTier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44E8E620CB2E8F0064FDBC /* loyaltyTier.swift */; };
+		1F44E8E920CEAFEC0064FDBC /* TierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44E8E820CEAFEC0064FDBC /* TierViewController.swift */; };
+		1F51996020C6C33300F2F658 /* creditcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F51995F20C6C33300F2F658 /* creditcard.swift */; };
+		1F68E17820AA594D004BF339 /* stringHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68E17720AA594D004BF339 /* stringHandling.swift */; };
+		1F68E17C20AA6BAE004BF339 /* cameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68E17B20AA6BAE004BF339 /* cameraController.swift */; };
+		1F68E17E20AB1680004BF339 /* questionMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F68E17D20AB167F004BF339 /* questionMark.png */; };
+		1F68E18020ADB6BB004BF339 /* resizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68E17F20ADB6BB004BF339 /* resizeImage.swift */; };
+		1F79138920B9E03300E0F9F9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F79138B20B9E03300E0F9F9 /* Alamofire.framework */; };
+		1F94B7EE20C336ED00D35016 /* Alamofire_Synchronous.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F94B7EF20C336ED00D35016 /* Alamofire_Synchronous.framework */; };
+		1F94B7F120C34B2900D35016 /* nsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94B7F020C34B2900D35016 /* nsExtension.swift */; };
+		1F94B7F320C5796200D35016 /* LastSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94B7F220C5796200D35016 /* LastSignUpViewController.swift */; };
+		1FC6FBB520C8CCF100C581F1 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC6FBB420C8CCF100C581F1 /* LoggedInViewController.swift */; };
+		1FC84DA22086484E0083F7B3 /* userStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC84DA12086484E0083F7B3 /* userStruct.swift */; };
+		1FC84DA420864D8D0083F7B3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC84DA320864D8D0083F7B3 /* CameraViewController.swift */; };
+		1FE72A7C2013F3FC00744EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE72A7B2013F3FC00744EA5 /* AppDelegate.swift */; };
+		1FE72A7E2013F3FC00744EA5 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE72A7D2013F3FC00744EA5 /* IntroViewController.swift */; };
+		1FE72A812013F3FC00744EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE72A7F2013F3FC00744EA5 /* Main.storyboard */; };
+		1FE72A842013F3FC00744EA5 /* BiPass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FE72A822013F3FC00744EA5 /* BiPass.xcdatamodeld */; };
+		1FE72A862013F3FC00744EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE72A852013F3FC00744EA5 /* Assets.xcassets */; };
+		1FE72A892013F3FC00744EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE72A872013F3FC00744EA5 /* LaunchScreen.storyboard */; };
+		1FE72A942013F3FC00744EA5 /* BiPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE72A932013F3FC00744EA5 /* BiPassTests.swift */; };
+		1FE72A9F2013F3FC00744EA5 /* BiPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE72A9E2013F3FC00744EA5 /* BiPassUITests.swift */; };
+		1FE72AAD2013F5C700744EA5 /* BiPass.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE72AAC2013F5C700744EA5 /* BiPass.png */; };
+		1FE72AAF2013F72700744EA5 /* BiPassWordless.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE72AAE2013F72700744EA5 /* BiPassWordless.png */; };
+		1FE7F5B520BD8BBC003D171C /* CustomEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7F5B420BD8BBC003D171C /* CustomEncoding.swift */; };
+		1FFB16CD20151DE700A4B61B /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB16CC20151DE700A4B61B /* JoinViewController.swift */; };
+		1FFB41CA2014469A009A2254 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB41C92014469A009A2254 /* Globals.swift */; };
+		1FFB41CC20144D26009A2254 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB41CB20144D26009A2254 /* SelectViewController.swift */; };
+		1FFB570420B9E25600527C8E /* CognitiveServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB570320B9E25600527C8E /* CognitiveServices.swift */; };
+		1FFB570620B9EA7500527C8E /* CogPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB570520B9EA7500527C8E /* CogPerson.swift */; };
+		57E9DD809CA2EF32242821A5 /* Pods_BiPassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA1CDB2D64972B2592953DF /* Pods_BiPassUITests.framework */; };
+		7A3DFB4E499522DCD6750B1B /* Pods_BiPass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DE37A9ABDC3B1AAB06AF84 /* Pods_BiPass.framework */; };
+		D393394718CA440DF5A64F59 /* Pods_BiPassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3BD946E72943F564B331CB /* Pods_BiPassTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FE72A902013F3FC00744EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FE72A702013F3FC00744EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE72A772013F3FC00744EA5;
+			remoteInfo = BiPass;
+		};
+		1FE72A9B2013F3FC00744EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FE72A702013F3FC00744EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE72A772013F3FC00744EA5;
+			remoteInfo = BiPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F16F77D20A5CD7500CD6564 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F23044120D2252500ECCB07 /* BusinessLoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessLoggedInViewController.swift; sourceTree = "<group>"; };
+		1F23044320D2D30100ECCB07 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		1F23044520D3367000ECCB07 /* PurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		1F23044720D337AE00ECCB07 /* BusinessDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDashboardViewController.swift; sourceTree = "<group>"; };
+		1F23044920D3444500ECCB07 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		1F23044B20D346C600ECCB07 /* IdentifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyViewController.swift; sourceTree = "<group>"; };
+		1F23044D20D353ED00ECCB07 /* stringNumberExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringNumberExtension.swift; sourceTree = "<group>"; };
+		1F23045120D3F0E100ECCB07 /* GotInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GotInfoViewController.swift; sourceTree = "<group>"; };
+		1F23045320D3F37B00ECCB07 /* VerifyUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyUserViewController.swift; sourceTree = "<group>"; };
+		1F44E8D420CAD6E00064FDBC /* How-to-Start-a-Coffee-Shop-Guide-Course.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "How-to-Start-a-Coffee-Shop-Guide-Course.png"; sourceTree = "<group>"; };
+		1F44E8D620CADB7F0064FDBC /* Business Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Business Text.png"; sourceTree = "<group>"; };
+		1F44E8D820CADC6C0064FDBC /* BusinessJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessJoinViewController.swift; sourceTree = "<group>"; };
+		1F44E8DA20CAE0E50064FDBC /* BusinessFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessFormViewController.swift; sourceTree = "<group>"; };
+		1F44E8DC20CAEDAE0064FDBC /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		1F44E8DE20CAF76C0064FDBC /* BusinessDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailsViewController.swift; sourceTree = "<group>"; };
+		1F44E8E020CB0F530064FDBC /* LoyaltySetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltySetUpViewController.swift; sourceTree = "<group>"; };
+		1F44E8E220CB0F680064FDBC /* PaymentSetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSetUpViewController.swift; sourceTree = "<group>"; };
+		1F44E8E420CB2E7B0064FDBC /* Loyalty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loyalty.swift; sourceTree = "<group>"; };
+		1F44E8E620CB2E8F0064FDBC /* loyaltyTier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loyaltyTier.swift; sourceTree = "<group>"; };
+		1F44E8E820CEAFEC0064FDBC /* TierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TierViewController.swift; sourceTree = "<group>"; };
+		1F51995F20C6C33300F2F658 /* creditcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creditcard.swift; sourceTree = "<group>"; };
+		1F68E17720AA594D004BF339 /* stringHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringHandling.swift; sourceTree = "<group>"; };
+		1F68E17B20AA6BAE004BF339 /* cameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraController.swift; sourceTree = "<group>"; };
+		1F68E17D20AB167F004BF339 /* questionMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = questionMark.png; sourceTree = "<group>"; };
+		1F68E17F20ADB6BB004BF339 /* resizeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resizeImage.swift; sourceTree = "<group>"; };
+		1F79138B20B9E03300E0F9F9 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F79138C20B9E03300E0F9F9 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F94B7EF20C336ED00D35016 /* Alamofire_Synchronous.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire_Synchronous.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F94B7F020C34B2900D35016 /* nsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nsExtension.swift; sourceTree = "<group>"; };
+		1F94B7F220C5796200D35016 /* LastSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSignUpViewController.swift; sourceTree = "<group>"; };
+		1FC6FBB420C8CCF100C581F1 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		1FC84DA12086484E0083F7B3 /* userStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userStruct.swift; sourceTree = "<group>"; };
+		1FC84DA320864D8D0083F7B3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		1FE72A782013F3FC00744EA5 /* BiPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE72A7B2013F3FC00744EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FE72A7D2013F3FC00744EA5 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		1FE72A802013F3FC00744EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FE72A832013F3FC00744EA5 /* BiPass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BiPass.xcdatamodel; sourceTree = "<group>"; };
+		1FE72A852013F3FC00744EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FE72A882013F3FC00744EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FE72A8A2013F3FC00744EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE72A8F2013F3FC00744EA5 /* BiPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE72A932013F3FC00744EA5 /* BiPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiPassTests.swift; sourceTree = "<group>"; };
+		1FE72A952013F3FC00744EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE72A9A2013F3FC00744EA5 /* BiPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE72A9E2013F3FC00744EA5 /* BiPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiPassUITests.swift; sourceTree = "<group>"; };
+		1FE72AA02013F3FC00744EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE72AAC2013F5C700744EA5 /* BiPass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BiPass.png; sourceTree = "<group>"; };
+		1FE72AAE2013F72700744EA5 /* BiPassWordless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BiPassWordless.png; sourceTree = "<group>"; };
+		1FE7F5B420BD8BBC003D171C /* CustomEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEncoding.swift; sourceTree = "<group>"; };
+		1FFB16CC20151DE700A4B61B /* JoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		1FFB41C92014469A009A2254 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		1FFB41CB20144D26009A2254 /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		1FFB570320B9E25600527C8E /* CognitiveServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CognitiveServices.swift; sourceTree = "<group>"; };
+		1FFB570520B9EA7500527C8E /* CogPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CogPerson.swift; sourceTree = "<group>"; };
+		2C9DF5B1D9A7E0C484E0224F /* Pods-BiPassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiPassTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiPassTests/Pods-BiPassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D94B15166BA5B51E3D5A64E /* Pods-BiPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiPass.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiPass/Pods-BiPass.release.xcconfig"; sourceTree = "<group>"; };
+		56E6BFE21A0C104494C3079D /* Pods-BiPassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiPassTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiPassTests/Pods-BiPassTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BA1CDB2D64972B2592953DF /* Pods_BiPassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiPassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DE37A9ABDC3B1AAB06AF84 /* Pods_BiPass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiPass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C6B5489722A47B4598DCC0 /* Pods-BiPassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiPassUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiPassUITests/Pods-BiPassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A65EF8545C507361DBCBD426 /* Pods-BiPassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiPassUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiPassUITests/Pods-BiPassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE3BD946E72943F564B331CB /* Pods_BiPassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiPassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC5480E5B0079EBCDE3B5D1 /* Pods-BiPass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiPass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiPass/Pods-BiPass.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FE72A752013F3FC00744EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F94B7EE20C336ED00D35016 /* Alamofire_Synchronous.framework in Frameworks */,
+				1F79138920B9E03300E0F9F9 /* Alamofire.framework in Frameworks */,
+				7A3DFB4E499522DCD6750B1B /* Pods_BiPass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE72A8C2013F3FC00744EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D393394718CA440DF5A64F59 /* Pods_BiPassTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE72A972013F3FC00744EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E9DD809CA2EF32242821A5 /* Pods_BiPassUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FE72A6F2013F3FC00744EA5 = {
+			isa = PBXGroup;
+			children = (
+				1FE72A7A2013F3FC00744EA5 /* BiPass */,
+				1FE72A922013F3FC00744EA5 /* BiPassTests */,
+				1FE72A9D2013F3FC00744EA5 /* BiPassUITests */,
+				1FE72A792013F3FC00744EA5 /* Products */,
+				60FA006504F5006393B209DA /* Pods */,
+				D8842DB22B6DDF89CCB57B82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1FE72A792013F3FC00744EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FE72A782013F3FC00744EA5 /* BiPass.app */,
+				1FE72A8F2013F3FC00744EA5 /* BiPassTests.xctest */,
+				1FE72A9A2013F3FC00744EA5 /* BiPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FE72A7A2013F3FC00744EA5 /* BiPass */ = {
+			isa = PBXGroup;
+			children = (
+				1F44E8D620CADB7F0064FDBC /* Business Text.png */,
+				1F44E8D420CAD6E00064FDBC /* How-to-Start-a-Coffee-Shop-Guide-Course.png */,
+				1FFB570320B9E25600527C8E /* CognitiveServices.swift */,
+				1F94B7F020C34B2900D35016 /* nsExtension.swift */,
+				1F23044D20D353ED00ECCB07 /* stringNumberExtension.swift */,
+				1FE7F5B420BD8BBC003D171C /* CustomEncoding.swift */,
+				1FFB570520B9EA7500527C8E /* CogPerson.swift */,
+				1F16F77D20A5CD7500CD6564 /* GoogleService-Info.plist */,
+				1FE72A7B2013F3FC00744EA5 /* AppDelegate.swift */,
+				1FE72A7D2013F3FC00744EA5 /* IntroViewController.swift */,
+				1FE72A7F2013F3FC00744EA5 /* Main.storyboard */,
+				1F23045320D3F37B00ECCB07 /* VerifyUserViewController.swift */,
+				1F23044B20D346C600ECCB07 /* IdentifyViewController.swift */,
+				1F23044520D3367000ECCB07 /* PurchaseViewController.swift */,
+				1F23044920D3444500ECCB07 /* Purchase.swift */,
+				1F23044720D337AE00ECCB07 /* BusinessDashboardViewController.swift */,
+				1F23044320D2D30100ECCB07 /* LogInViewController.swift */,
+				1F23044120D2252500ECCB07 /* BusinessLoggedInViewController.swift */,
+				1F44E8E820CEAFEC0064FDBC /* TierViewController.swift */,
+				1F44E8E420CB2E7B0064FDBC /* Loyalty.swift */,
+				1F44E8E620CB2E8F0064FDBC /* loyaltyTier.swift */,
+				1F44E8E020CB0F530064FDBC /* LoyaltySetUpViewController.swift */,
+				1F44E8E220CB0F680064FDBC /* PaymentSetUpViewController.swift */,
+				1F44E8DE20CAF76C0064FDBC /* BusinessDetailsViewController.swift */,
+				1F44E8DC20CAEDAE0064FDBC /* Business.swift */,
+				1F44E8DA20CAE0E50064FDBC /* BusinessFormViewController.swift */,
+				1F44E8D820CADC6C0064FDBC /* BusinessJoinViewController.swift */,
+				1FC6FBB420C8CCF100C581F1 /* LoggedInViewController.swift */,
+				1F94B7F220C5796200D35016 /* LastSignUpViewController.swift */,
+				1F68E17720AA594D004BF339 /* stringHandling.swift */,
+				1FC84DA320864D8D0083F7B3 /* CameraViewController.swift */,
+				1F68E17B20AA6BAE004BF339 /* cameraController.swift */,
+				1FFB16CC20151DE700A4B61B /* JoinViewController.swift */,
+				1FE72A852013F3FC00744EA5 /* Assets.xcassets */,
+				1FE72A872013F3FC00744EA5 /* LaunchScreen.storyboard */,
+				1FE72AAC2013F5C700744EA5 /* BiPass.png */,
+				1FE72AAE2013F72700744EA5 /* BiPassWordless.png */,
+				1FC84DA12086484E0083F7B3 /* userStruct.swift */,
+				1F51995F20C6C33300F2F658 /* creditcard.swift */,
+				1F68E17D20AB167F004BF339 /* questionMark.png */,
+				1FE72A8A2013F3FC00744EA5 /* Info.plist */,
+				1FE72A822013F3FC00744EA5 /* BiPass.xcdatamodeld */,
+				1FFB41C92014469A009A2254 /* Globals.swift */,
+				1FFB41CB20144D26009A2254 /* SelectViewController.swift */,
+				1F68E17F20ADB6BB004BF339 /* resizeImage.swift */,
+				1F23045120D3F0E100ECCB07 /* GotInfoViewController.swift */,
+			);
+			path = BiPass;
+			sourceTree = "<group>";
+		};
+		1FE72A922013F3FC00744EA5 /* BiPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FE72A932013F3FC00744EA5 /* BiPassTests.swift */,
+				1FE72A952013F3FC00744EA5 /* Info.plist */,
+			);
+			path = BiPassTests;
+			sourceTree = "<group>";
+		};
+		1FE72A9D2013F3FC00744EA5 /* BiPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FE72A9E2013F3FC00744EA5 /* BiPassUITests.swift */,
+				1FE72AA02013F3FC00744EA5 /* Info.plist */,
+			);
+			path = BiPassUITests;
+			sourceTree = "<group>";
+		};
+		60FA006504F5006393B209DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5480E5B0079EBCDE3B5D1 /* Pods-BiPass.debug.xcconfig */,
+				2D94B15166BA5B51E3D5A64E /* Pods-BiPass.release.xcconfig */,
+				2C9DF5B1D9A7E0C484E0224F /* Pods-BiPassTests.debug.xcconfig */,
+				56E6BFE21A0C104494C3079D /* Pods-BiPassTests.release.xcconfig */,
+				A65EF8545C507361DBCBD426 /* Pods-BiPassUITests.debug.xcconfig */,
+				86C6B5489722A47B4598DCC0 /* Pods-BiPassUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8842DB22B6DDF89CCB57B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F94B7EF20C336ED00D35016 /* Alamofire_Synchronous.framework */,
+				1F79138B20B9E03300E0F9F9 /* Alamofire.framework */,
+				1F79138C20B9E03300E0F9F9 /* GoogleToolboxForMac.framework */,
+				65DE37A9ABDC3B1AAB06AF84 /* Pods_BiPass.framework */,
+				CE3BD946E72943F564B331CB /* Pods_BiPassTests.framework */,
+				5BA1CDB2D64972B2592953DF /* Pods_BiPassUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FE72A772013F3FC00744EA5 /* BiPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE72AA32013F3FC00744EA5 /* Build configuration list for PBXNativeTarget "BiPass" */;
+			buildPhases = (
+				C3F1312ED67535B3D87A5776 /* [CP] Check Pods Manifest.lock */,
+				1FE72A742013F3FC00744EA5 /* Sources */,
+				1FE72A752013F3FC00744EA5 /* Frameworks */,
+				1FE72A762013F3FC00744EA5 /* Resources */,
+				D58FDF939F4CE1E9CAB2B563 /* [CP] Embed Pods Frameworks */,
+				74D34BA4B1715D34BCFD8D52 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiPass;
+			productName = BiPass;
+			productReference = 1FE72A782013F3FC00744EA5 /* BiPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FE72A8E2013F3FC00744EA5 /* BiPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE72AA62013F3FC00744EA5 /* Build configuration list for PBXNativeTarget "BiPassTests" */;
+			buildPhases = (
+				77C5A1F216F6214C48FACAC8 /* [CP] Check Pods Manifest.lock */,
+				1FE72A8B2013F3FC00744EA5 /* Sources */,
+				1FE72A8C2013F3FC00744EA5 /* Frameworks */,
+				1FE72A8D2013F3FC00744EA5 /* Resources */,
+				BA4B07C7E28137F11832165F /* [CP] Embed Pods Frameworks */,
+				26E5772DADE097BB13782672 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FE72A912013F3FC00744EA5 /* PBXTargetDependency */,
+			);
+			name = BiPassTests;
+			productName = BiPassTests;
+			productReference = 1FE72A8F2013F3FC00744EA5 /* BiPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FE72A992013F3FC00744EA5 /* BiPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE72AA92013F3FC00744EA5 /* Build configuration list for PBXNativeTarget "BiPassUITests" */;
+			buildPhases = (
+				ECF395CB7EB709949402358F /* [CP] Check Pods Manifest.lock */,
+				1FE72A962013F3FC00744EA5 /* Sources */,
+				1FE72A972013F3FC00744EA5 /* Frameworks */,
+				1FE72A982013F3FC00744EA5 /* Resources */,
+				CA69E835468218CC67B43D3D /* [CP] Embed Pods Frameworks */,
+				D2F998DEDC7A6DDC5DC9D313 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FE72A9C2013F3FC00744EA5 /* PBXTargetDependency */,
+			);
+			name = BiPassUITests;
+			productName = BiPassUITests;
+			productReference = 1FE72A9A2013F3FC00744EA5 /* BiPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FE72A702013F3FC00744EA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Austin Teshuba";
+				TargetAttributes = {
+					1FE72A772013F3FC00744EA5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L54574WPF9;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					1FE72A8E2013F3FC00744EA5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L54574WPF9;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FE72A772013F3FC00744EA5;
+					};
+					1FE72A992013F3FC00744EA5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L54574WPF9;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FE72A772013F3FC00744EA5;
+					};
+				};
+			};
+			buildConfigurationList = 1FE72A732013F3FC00744EA5 /* Build configuration list for PBXProject "BiPass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FE72A6F2013F3FC00744EA5;
+			productRefGroup = 1FE72A792013F3FC00744EA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FE72A772013F3FC00744EA5 /* BiPass */,
+				1FE72A8E2013F3FC00744EA5 /* BiPassTests */,
+				1FE72A992013F3FC00744EA5 /* BiPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FE72A762013F3FC00744EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE72A892013F3FC00744EA5 /* LaunchScreen.storyboard in Resources */,
+				1FE72AAD2013F5C700744EA5 /* BiPass.png in Resources */,
+				1F44E8D520CAD6E10064FDBC /* How-to-Start-a-Coffee-Shop-Guide-Course.png in Resources */,
+				1F44E8D720CADB800064FDBC /* Business Text.png in Resources */,
+				1F16F77E20A5CD7500CD6564 /* GoogleService-Info.plist in Resources */,
+				1FE72A862013F3FC00744EA5 /* Assets.xcassets in Resources */,
+				1FE72AAF2013F72700744EA5 /* BiPassWordless.png in Resources */,
+				1FE72A812013F3FC00744EA5 /* Main.storyboard in Resources */,
+				1F68E17E20AB1680004BF339 /* questionMark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE72A8D2013F3FC00744EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F16F77F20A5CD7500CD6564 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE72A982013F3FC00744EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F16F78020A5CD7500CD6564 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26E5772DADE097BB13782672 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiPassTests/Pods-BiPassTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74D34BA4B1715D34BCFD8D52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiPass/Pods-BiPass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77C5A1F216F6214C48FACAC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiPassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA4B07C7E28137F11832165F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiPassTests/Pods-BiPassTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F1312ED67535B3D87A5776 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiPass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA69E835468218CC67B43D3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiPassUITests/Pods-BiPassUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F998DEDC7A6DDC5DC9D313 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiPassUITests/Pods-BiPassUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D58FDF939F4CE1E9CAB2B563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BiPass/Pods-BiPass-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-Synchronous/Alamofire_Synchronous.framework",
+				"${BUILT_PRODUCTS_DIR}/CCValidator/CCValidator.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_Synchronous.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCValidator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiPass/Pods-BiPass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF395CB7EB709949402358F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiPassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FE72A742013F3FC00744EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F44E8DB20CAE0E50064FDBC /* BusinessFormViewController.swift in Sources */,
+				1FFB41CC20144D26009A2254 /* SelectViewController.swift in Sources */,
+				1F44E8E120CB0F540064FDBC /* LoyaltySetUpViewController.swift in Sources */,
+				1FFB41CA2014469A009A2254 /* Globals.swift in Sources */,
+				1F23044A20D3444500ECCB07 /* Purchase.swift in Sources */,
+				1F94B7F320C5796200D35016 /* LastSignUpViewController.swift in Sources */,
+				1F23044620D3367000ECCB07 /* PurchaseViewController.swift in Sources */,
+				1F68E18020ADB6BB004BF339 /* resizeImage.swift in Sources */,
+				1F68E17C20AA6BAE004BF339 /* cameraController.swift in Sources */,
+				1F94B7F120C34B2900D35016 /* nsExtension.swift in Sources */,
+				1F44E8DF20CAF76C0064FDBC /* BusinessDetailsViewController.swift in Sources */,
+				1F68E17820AA594D004BF339 /* stringHandling.swift in Sources */,
+				1FE72A7E2013F3FC00744EA5 /* IntroViewController.swift in Sources */,
+				1F23044220D2252500ECCB07 /* BusinessLoggedInViewController.swift in Sources */,
+				1FFB570420B9E25600527C8E /* CognitiveServices.swift in Sources */,
+				1F44E8D920CADC6C0064FDBC /* BusinessJoinViewController.swift in Sources */,
+				1F23044820D337AE00ECCB07 /* BusinessDashboardViewController.swift in Sources */,
+				1F44E8E920CEAFEC0064FDBC /* TierViewController.swift in Sources */,
+				1FC84DA22086484E0083F7B3 /* userStruct.swift in Sources */,
+				1FE72A7C2013F3FC00744EA5 /* AppDelegate.swift in Sources */,
+				1F51996020C6C33300F2F658 /* creditcard.swift in Sources */,
+				1FFB570620B9EA7500527C8E /* CogPerson.swift in Sources */,
+				1F44E8DD20CAEDAE0064FDBC /* Business.swift in Sources */,
+				1F23044420D2D30200ECCB07 /* LogInViewController.swift in Sources */,
+				1F44E8E320CB0F680064FDBC /* PaymentSetUpViewController.swift in Sources */,
+				1FC84DA420864D8D0083F7B3 /* CameraViewController.swift in Sources */,
+				1FFB16CD20151DE700A4B61B /* JoinViewController.swift in Sources */,
+				1FC6FBB520C8CCF100C581F1 /* LoggedInViewController.swift in Sources */,
+				1FE72A842013F3FC00744EA5 /* BiPass.xcdatamodeld in Sources */,
+				1F23044E20D353ED00ECCB07 /* stringNumberExtension.swift in Sources */,
+				1FE7F5B520BD8BBC003D171C /* CustomEncoding.swift in Sources */,
+				1F44E8E720CB2E8F0064FDBC /* loyaltyTier.swift in Sources */,
+				1F23045420D3F37B00ECCB07 /* VerifyUserViewController.swift in Sources */,
+				1F44E8E520CB2E7B0064FDBC /* Loyalty.swift in Sources */,
+				1F23044C20D346C600ECCB07 /* IdentifyViewController.swift in Sources */,
+				1F23045220D3F0E300ECCB07 /* GotInfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE72A8B2013F3FC00744EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE72A942013F3FC00744EA5 /* BiPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE72A962013F3FC00744EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE72A9F2013F3FC00744EA5 /* BiPassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FE72A912013F3FC00744EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE72A772013F3FC00744EA5 /* BiPass */;
+			targetProxy = 1FE72A902013F3FC00744EA5 /* PBXContainerItemProxy */;
+		};
+		1FE72A9C2013F3FC00744EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE72A772013F3FC00744EA5 /* BiPass */;
+			targetProxy = 1FE72A9B2013F3FC00744EA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FE72A7F2013F3FC00744EA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE72A802013F3FC00744EA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FE72A872013F3FC00744EA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE72A882013F3FC00744EA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FE72AA12013F3FC00744EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FE72AA22013F3FC00744EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FE72AA42013F3FC00744EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC5480E5B0079EBCDE3B5D1 /* Pods-BiPass.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L54574WPF9;
+				INFOPLIST_FILE = BiPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.austin.BiPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FE72AA52013F3FC00744EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D94B15166BA5B51E3D5A64E /* Pods-BiPass.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L54574WPF9;
+				INFOPLIST_FILE = BiPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.austin.BiPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FE72AA72013F3FC00744EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9DF5B1D9A7E0C484E0224F /* Pods-BiPassTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L54574WPF9;
+				INFOPLIST_FILE = BiPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.austin.BiPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiPass.app/BiPass";
+			};
+			name = Debug;
+		};
+		1FE72AA82013F3FC00744EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E6BFE21A0C104494C3079D /* Pods-BiPassTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L54574WPF9;
+				INFOPLIST_FILE = BiPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.austin.BiPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiPass.app/BiPass";
+			};
+			name = Release;
+		};
+		1FE72AAA2013F3FC00744EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65EF8545C507361DBCBD426 /* Pods-BiPassUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L54574WPF9;
+				INFOPLIST_FILE = BiPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.austin.BiPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BiPass;
+			};
+			name = Debug;
+		};
+		1FE72AAB2013F3FC00744EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C6B5489722A47B4598DCC0 /* Pods-BiPassUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L54574WPF9;
+				INFOPLIST_FILE = BiPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.austin.BiPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BiPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FE72A732013F3FC00744EA5 /* Build configuration list for PBXProject "BiPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE72AA12013F3FC00744EA5 /* Debug */,
+				1FE72AA22013F3FC00744EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FE72AA32013F3FC00744EA5 /* Build configuration list for PBXNativeTarget "BiPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE72AA42013F3FC00744EA5 /* Debug */,
+				1FE72AA52013F3FC00744EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FE72AA62013F3FC00744EA5 /* Build configuration list for PBXNativeTarget "BiPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE72AA72013F3FC00744EA5 /* Debug */,
+				1FE72AA82013F3FC00744EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FE72AA92013F3FC00744EA5 /* Build configuration list for PBXNativeTarget "BiPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE72AAA2013F3FC00744EA5 /* Debug */,
+				1FE72AAB2013F3FC00744EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FE72A822013F3FC00744EA5 /* BiPass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FE72A832013F3FC00744EA5 /* BiPass.xcdatamodel */,
+			);
+			currentVersion = 1FE72A832013F3FC00744EA5 /* BiPass.xcdatamodel */;
+			path = BiPass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1FE72A702013F3FC00744EA5 /* Project object */;
+}
